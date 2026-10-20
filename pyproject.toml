@@ -1,0 +1,28 @@
+[project]
+name = "prim-campus-unifor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jv1ctor", email = "j.rodriguesbarretos@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipympl>=0.10.0",
+    "matplotlib>=3.11.2",
+    "networkx>=3.7",
+    "pyqt5>=5.15.11",
+]
+
+[project.scripts]
+prim-campus-unifor = "prim_campus_unifor:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+]
