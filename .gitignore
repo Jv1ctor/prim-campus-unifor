@@ -42,10 +42,6 @@ venv.bak/
 *.ipynb_checkpoints
 *.nbconvert.ipynb
 
-# Dados gerados pela aplicação
-vertices.json
-node.json
-*.json
 
 # Logs
 *.log
